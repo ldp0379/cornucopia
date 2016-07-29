@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">聚宝盆</string>
+    <string name="customize_recycleView">自定义RecycleView</string>
 </resources>
