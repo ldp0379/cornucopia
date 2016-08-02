@@ -5,3 +5,7 @@
 参考内容：
 >* https://github.com/christmasjason/StickyHeaderView
 >* http://www.jianshu.com/p/c596f2e6f587
+
+###<font color="red">边缘凹凸的卡劵效果View</font>
+参考内容：
+>* http://blog.csdn.net/yissan/article/details/51429281

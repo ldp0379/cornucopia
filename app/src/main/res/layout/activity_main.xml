@@ -14,4 +14,9 @@
         android:id="@+id/customize_recycleView"
         style="@style/tv_style"
         android:text="@string/customize_recycleView" />
+
+    <TextView
+        android:id="@+id/customize_view"
+        style="@style/tv_style"
+        android:text="@string/customize_view" />
 </LinearLayout>
