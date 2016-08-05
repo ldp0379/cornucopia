@@ -6,6 +6,7 @@ import android.widget.TextView;
 import com.cornucopia.ldp.cornucopia.R;
 import com.cornucopia.ldp.cornucopia.ui.activity.EdgeBumpActivity;
 import com.cornucopia.ldp.cornucopia.ui.base.BaseActivity;
+import com.cornucopia.ldp.cornucopia.utils.ToastUtils;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -25,7 +26,7 @@ public class MainActivity extends BaseActivity {
 
     @OnClick(R.id.customize_recycleView)
     void onClickCustomizeRecycleView() {
-        showToast("onClickCustomizeRecycleView");
+        ToastUtils.showToast(this, "onClickCustomizeRecycleView");
     }
 
     @OnClick(R.id.customize_view)
