@@ -53,7 +53,7 @@ public class StickyHeaderRecycleViewActivity extends BaseActivity {
                 View stickyInfoView = recyclerView.findChildViewUnder(mTVStickyHeaderView.getMeasuredWidth() / 2, 5);
                 if (stickyInfoView != null && stickyInfoView.getContentDescription() != null) {
                     mTVStickyHeaderView.setText(String.valueOf(stickyInfoView.getContentDescription()));
-                }git
+                }
 
                 // 找到RecyclerView的item中，和RecyclerView的getTop 向下相距5个像素的那个item
                 // (尝试2、3个像素位置都找不到，所以干脆用了5个像素)，
