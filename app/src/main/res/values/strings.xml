@@ -3,4 +3,5 @@
     <string name="customize_recycleView">自定义RecycleView</string>
     <string name="customize_view">自定义View</string>
     <string name="edge_bump">EdgeBumpActivity</string>
+    <string name="sticky_header_view">顶部悬浮RV</string>
 </resources>
