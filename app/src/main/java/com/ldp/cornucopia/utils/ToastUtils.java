@@ -1,4 +1,4 @@
-package com.cornucopia.ldp.cornucopia.utils;
+package com.ldp.cornucopia.utils;
 
 import android.content.Context;
 import android.widget.Toast;

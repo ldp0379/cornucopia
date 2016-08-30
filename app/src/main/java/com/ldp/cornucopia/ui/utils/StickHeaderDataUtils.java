@@ -1,6 +1,6 @@
-package com.cornucopia.ldp.cornucopia.ui.utils;
+package com.ldp.cornucopia.ui.utils;
 
-import com.cornucopia.ldp.cornucopia.response.model.StickHeaderModel;
+import com.ldp.cornucopia.model.StickHeaderModel;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,7 +9,7 @@ import java.util.List;
  * StickHeader - 数据模拟
  * Created by ldp on 16/8/5.
  */
-public class StickHeaderDataUtil {
+public class StickHeaderDataUtils {
     public static final int MODEL_COUNT = 30;
 
     public static List<StickHeaderModel> getData() {

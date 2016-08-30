@@ -1,4 +1,4 @@
-package com.cornucopia.ldp.cornucopia.ui.view;
+package com.ldp.cornucopia.ui.view;
 
 import android.content.Context;
 import android.graphics.Canvas;

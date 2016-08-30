@@ -4,7 +4,7 @@
     android:layout_height="wrap_content"
     android:padding="20dp">
 
-    <com.cornucopia.ldp.cornucopia.ui.view.EdgeBumpView
+    <com.ldp.cornucopia.ui.view.EdgeBumpView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#FABF55"
@@ -19,6 +19,6 @@
             android:scaleType="centerCrop"
             android:src="@mipmap/bg_edge_bump" />
 
-    </com.cornucopia.ldp.cornucopia.ui.view.EdgeBumpView>
+    </com.ldp.cornucopia.ui.view.EdgeBumpView>
 
 </FrameLayout>

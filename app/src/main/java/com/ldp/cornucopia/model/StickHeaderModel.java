@@ -1,4 +1,4 @@
-package com.cornucopia.ldp.cornucopia.response.model;
+package com.ldp.cornucopia.model;
 
 /**
  * StickHeaderRV - Model

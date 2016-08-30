@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="main_list_item">
+        <item>自定义RecyclerView</item>
+        <item>自定义View</item>
+    </string-array>
+
+    <string-array name="recyclerView_item">
+        <item>顶部悬浮RecyclerView</item>
+        <item>refresh and loading recyclerView</item>
+    </string-array>
+
+    <string-array name="view_item">
+        <item>边缘凹凸的卡劵效果View</item>
+    </string-array>
+</resources>

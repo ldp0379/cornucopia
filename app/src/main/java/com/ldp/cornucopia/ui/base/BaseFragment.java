@@ -1,4 +1,4 @@
-package com.cornucopia.ldp.cornucopia.ui.base;
+package com.ldp.cornucopia.ui.base;
 
 import android.content.Context;
 import android.os.Bundle;

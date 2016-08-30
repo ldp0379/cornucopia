@@ -1,4 +1,4 @@
-package com.cornucopia.ldp.cornucopia.utils;
+package com.ldp.cornucopia.utils;
 
 import android.graphics.Color;
 import android.support.design.widget.Snackbar;

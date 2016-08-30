@@ -1,10 +1,10 @@
-package com.cornucopia.ldp.cornucopia.ui.activity;
+package com.ldp.cornucopia.ui.activity;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 
 import com.cornucopia.ldp.cornucopia.R;
-import com.cornucopia.ldp.cornucopia.ui.base.BaseActivity;
+import com.ldp.cornucopia.ui.base.BaseActivity;
 
 /**
  * EdgeBumpView - activity
@@ -17,8 +17,6 @@ public class EdgeBumpActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_edge_bump);
 
-        if(getSupportActionBar() != null){
-            getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        }
+        showActionBarBack();
     }
 }

@@ -1,4 +1,4 @@
-package com.cornucopia.ldp.cornucopia.ui.activity;
+package com.ldp.cornucopia.ui.activity;
 
 import android.graphics.Color;
 import android.os.Bundle;
@@ -10,10 +10,10 @@ import android.view.View;
 import android.widget.TextView;
 
 import com.cornucopia.ldp.cornucopia.R;
-import com.cornucopia.ldp.cornucopia.ui.adapter.StickHeaderRVAdapter;
-import com.cornucopia.ldp.cornucopia.ui.base.BaseActivity;
-import com.cornucopia.ldp.cornucopia.ui.utils.StickHeaderDataUtil;
-import com.cornucopia.ldp.cornucopia.utils.SnackBarUtil;
+import com.ldp.cornucopia.ui.adapter.StickHeaderRVAdapter;
+import com.ldp.cornucopia.ui.base.BaseActivity;
+import com.ldp.cornucopia.ui.utils.StickHeaderDataUtils;
+import com.ldp.cornucopia.utils.SnackBarUtil;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -22,7 +22,7 @@ import butterknife.OnClick;
 /**
  * 顶部悬浮的RecycleView
  * <p>参考：https://github.com/christmasjason/StickyHeaderView</p>
- * <p/>
+ * <p>
  * Created by ldp on 16/7/29.
  */
 public class StickyHeaderRecycleViewActivity extends BaseActivity {
@@ -40,12 +40,14 @@ public class StickyHeaderRecycleViewActivity extends BaseActivity {
         setContentView(R.layout.activity_sticky_header_rv);
         ButterKnife.bind(this);
 
+        showActionBarBack();
+
         initRecyclerView();
     }
 
     private void initRecyclerView() {
         mRVStickyExample.setLayoutManager(new LinearLayoutManager(this));
-        mRVStickyExample.setAdapter(new StickHeaderRVAdapter(this, StickHeaderDataUtil.getData()));
+        mRVStickyExample.setAdapter(new StickHeaderRVAdapter(this, StickHeaderDataUtils.getData()));
         mRVStickyExample.setOnScrollListener(new RecyclerView.OnScrollListener() {
             @Override
             public void onScrolled(RecyclerView recyclerView, int dx, int dy) {

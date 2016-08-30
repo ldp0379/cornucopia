@@ -1,4 +1,4 @@
-package com.cornucopia.ldp.cornucopia.ui.adapter;
+package com.ldp.cornucopia.ui.adapter;
 
 import android.content.Context;
 import android.support.v4.content.ContextCompat;
@@ -11,7 +11,7 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.cornucopia.ldp.cornucopia.R;
-import com.cornucopia.ldp.cornucopia.response.model.StickHeaderModel;
+import com.ldp.cornucopia.model.StickHeaderModel;
 
 import java.util.List;
 
