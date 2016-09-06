@@ -1,0 +1,73 @@
+package com.ldp.cornucopia.ui.view.CoordinatorLayoutView;
+
+import android.content.Context;
+import android.support.design.widget.CoordinatorLayout;
+import android.support.v4.view.ViewCompat;
+import android.util.AttributeSet;
+import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.TranslateAnimation;
+
+/**
+ * TabBehavior
+ * Created by ldp on 16/9/2.
+ */
+public class TabBehavior extends CoordinatorLayout.Behavior {
+    private TranslateAnimation mAnimation;
+
+    public TabBehavior(Context context, AttributeSet attrs) {
+        super(context, attrs);
+    }
+
+    @Override
+    public boolean onStartNestedScroll(CoordinatorLayout coordinatorLayout,
+                                       View child, View directTargetChild,
+                                       View target, int nestedScrollAxes) {
+        return (nestedScrollAxes & ViewCompat.SCROLL_AXIS_VERTICAL) != 0;
+    }
+
+    @Override
+    public void onNestedScroll(CoordinatorLayout coordinatorLayout, View child,
+                               View target, int dxConsumed, int dyConsumed,
+                               int dxUnconsumed, int dyUnconsumed) {
+        super.onNestedScroll(coordinatorLayout, child, target, dxConsumed, dyConsumed, dxUnconsumed, dyUnconsumed);
+        if (Math.abs(dxConsumed) > Math.abs(dyConsumed)) {
+            child.clearAnimation();
+            return;
+        }
+
+        if (dyConsumed > 0) {
+            if (child.getVisibility() == View.GONE) return;
+            startAnim(child, 0, child.getMeasuredHeight());
+        } else {
+            if (child.getVisibility() == View.VISIBLE) return;
+            startAnim(child, child.getMeasuredHeight(), 0);
+        }
+    }
+
+    private void startAnim(final View child, final int startY, int endY) {
+        child.clearAnimation();
+        mAnimation = new TranslateAnimation(0.f, 0.f, startY, endY);
+        mAnimation.setDuration(500);
+        mAnimation.setAnimationListener(new Animation.AnimationListener() {
+            @Override
+            public void onAnimationEnd(Animation animation) {
+                if (startY == 0) child.setVisibility(View.GONE);
+                else child.setVisibility(View.VISIBLE);
+                mAnimation = null;
+            }
+
+            @Override
+            public void onAnimationStart(Animation animation) {
+
+            }
+
+            @Override
+            public void onAnimationRepeat(Animation animation) {
+
+            }
+        });
+
+        child.startAnimation(mAnimation);
+    }
+}

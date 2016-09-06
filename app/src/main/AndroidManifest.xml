@@ -32,8 +32,15 @@
             android:name="com.ldp.cornucopia.ui.activity.SelfViewActivity"
             android:label="@string/customize_view" />
 
-        <activity android:name="com.ldp.cornucopia.ui.activity.RefreshAndLoadingRVActivity"
-            android:label="@string/refresh_and_loading_rv"/>
+        <activity
+            android:name="com.ldp.cornucopia.ui.activity.RefreshAndLoadingRVActivity"
+            android:label="@string/refresh_and_loading_rv" />
+
+        <activity
+            android:name="com.ldp.cornucopia.ui.activity.CoordinatorLayoutActivity"
+            android:label="@string/coordinator_layout_tabBar_view" />
+
+        <activity android:name="com.ldp.cornucopia.ui.activity.MaterialDesignActivity" />
     </application>
 
 </manifest>

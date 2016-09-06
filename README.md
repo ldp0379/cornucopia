@@ -15,3 +15,10 @@
 >* https://github.com/jianghejie/XRecyclerView
 >* https://github.com/jdsjlzx/LRecyclerView
 >* http://blog.csdn.net/jdsjlzx/article/details/51794220
+
+###<font color="red"> Material Design风格的CoordinatorLayout + TabBar</font>
+参考内容：
+>* http://blog.csdn.net/qibin0506/article/details/51346930
+>* https://github.com/qibin0506/MDTab
+>* http://blog.csdn.net/qibin0506/article/details/50290421
+>* http://yifeiyuan.me/2016/07/12/%E4%B8%80%E6%AD%A5%E4%B8%80%E6%AD%A5%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3CoordinateLayout/

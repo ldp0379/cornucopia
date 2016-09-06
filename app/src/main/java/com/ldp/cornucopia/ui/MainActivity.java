@@ -7,6 +7,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 import com.cornucopia.ldp.cornucopia.R;
+import com.ldp.cornucopia.ui.activity.MaterialDesignActivity;
 import com.ldp.cornucopia.ui.activity.RecyclerViewActivity;
 import com.ldp.cornucopia.ui.activity.SelfViewActivity;
 import com.ldp.cornucopia.ui.base.BaseActivity;
@@ -55,6 +56,9 @@ public class MainActivity extends BaseActivity {
                 break;
             case 1:
                 startActivityWithoutParams(SelfViewActivity.class);
+                break;
+            case 2:
+                startActivityWithoutParams(MaterialDesignActivity.class);
                 break;
         }
     }

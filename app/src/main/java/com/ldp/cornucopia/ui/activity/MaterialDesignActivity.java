@@ -12,7 +12,10 @@ import com.ldp.cornucopia.ui.base.BaseActivity;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-public class SelfViewActivity extends BaseActivity {
+/**
+ * Created by ldp on 16/9/2.
+ */
+public class MaterialDesignActivity extends BaseActivity {
 
     @BindView(R.id.view_list)
     ListView mViewList;
@@ -29,7 +32,7 @@ public class SelfViewActivity extends BaseActivity {
     }
 
     private void initAdapter() {
-        String[] listItem = getResources().getStringArray(R.array.view_item);
+        String[] listItem = getResources().getStringArray(R.array.material_design_view);
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, R.layout.adapter_item, R.id
                 .adapter_item_tv, listItem);
         mViewList.setAdapter(adapter);
@@ -50,7 +53,7 @@ public class SelfViewActivity extends BaseActivity {
     private void onClickView(int position) {
         switch (position) {
             case 0:
-                startActivityWithoutParams(EdgeBumpActivity.class);
+                startActivityWithoutParams(CoordinatorLayoutActivity.class);
                 break;
         }
     }
