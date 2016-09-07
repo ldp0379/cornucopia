@@ -41,6 +41,8 @@
             android:label="@string/coordinator_layout_tabBar_view" />
 
         <activity android:name="com.ldp.cornucopia.ui.activity.MaterialDesignActivity" />
+
+        <activity android:name="com.ldp.cornucopia.ui.activity.RecyclerViewCardGalleryActivity"/>
     </application>
 
 </manifest>

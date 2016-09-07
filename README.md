@@ -22,3 +22,10 @@
 >* https://github.com/qibin0506/MDTab
 >* http://blog.csdn.net/qibin0506/article/details/50290421
 >* http://yifeiyuan.me/2016/07/12/%E4%B8%80%E6%AD%A5%E4%B8%80%E6%AD%A5%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3CoordinateLayout/
+
+###<font color="red">使用RecyclerView实现Gallery画廊效果</font>
+参考内容：
+>* http://www.jianshu.com/p/85bf072bfeed
+>* https://github.com/huazhiyuan2008/RecyclerViewCardGallery
+>* https://github.com/wl9739/BlurredView
+>* http://wl9739.github.io/2016/07/14/教你一分钟实现模糊效果/

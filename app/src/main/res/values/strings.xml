@@ -20,4 +20,6 @@
     <string name="tab_behavior">com.ldp.cornucopia.ui.view.CoordinatorLayoutView.TabBehavior</string>
     <string name="coordinator_layout_tabBar_view">CoordinatorLayoutActivity</string>
 
+    <string name="image_view_content_description">image</string>
+
 </resources>

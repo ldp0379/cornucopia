@@ -55,6 +55,9 @@ public class RecyclerViewActivity extends BaseActivity {
                 break;
             case 1:
                 startActivityWithoutParams(RefreshAndLoadingRVActivity.class);
+                break;
+            case 2:
+                startActivityWithoutParams(RecyclerViewCardGalleryActivity.class);
         }
     }
 }

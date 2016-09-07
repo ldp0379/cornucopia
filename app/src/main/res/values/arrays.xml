@@ -10,6 +10,7 @@
     <string-array name="recyclerView_item">
         <item>顶部悬浮RecyclerView</item>
         <item>refresh and loading recyclerView</item>
+        <item>RecyclerView实现Gallery画廊效果</item>
     </string-array>
 
     <string-array name="view_item">
