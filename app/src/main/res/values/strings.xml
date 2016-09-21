@@ -5,6 +5,7 @@
     <string name="edge_bump">EdgeBumpActivity</string>
     <string name="sticky_header_view">顶部悬浮RV</string>
     <string name="refresh_and_loading_rv">下拉刷新/上拉加载 RefreshView</string>
+    <string name="status_action_navigation_bar">StatusBar/ActionBar/NavigationBar </string>
 
     <!-- XRecyclerView刷新需要 -->
     <string name="header_hint_refresh_normal">下拉刷新</string>
@@ -21,5 +22,12 @@
     <string name="coordinator_layout_tabBar_view">CoordinatorLayoutActivity</string>
 
     <string name="image_view_content_description">image</string>
+
+    <string name="hide_status_bar">隐藏StatsBar</string>
+    <string name="hide_action_bar">隐藏ActionBar</string>
+    <string name="hide_navigation_bar">隐藏NavigationBar</string>
+    <string name="immersive_status_bar">沉浸式状态栏</string>
+    <string name="transparent_status_bar">透明状态栏</string>
+    <string name="transparent_navigation_bar">透明导航栏</string>
 
 </resources>

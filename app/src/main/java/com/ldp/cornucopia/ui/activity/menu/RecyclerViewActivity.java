@@ -1,18 +1,14 @@
-package com.ldp.cornucopia.ui.activity;
+package com.ldp.cornucopia.ui.activity.menu;
 
 import android.os.Bundle;
-import android.widget.ListView;
 
 import com.cornucopia.ldp.cornucopia.R;
+import com.ldp.cornucopia.ui.activity.RecyclerViewCardGalleryActivity;
+import com.ldp.cornucopia.ui.activity.RefreshAndLoadingRVActivity;
+import com.ldp.cornucopia.ui.activity.StickyHeaderRecycleViewActivity;
 import com.ldp.cornucopia.ui.base.BaseListActivity;
 
-import butterknife.BindView;
-
 public class RecyclerViewActivity extends BaseListActivity {
-
-
-    @BindView(R.id.view_list)
-    ListView mViewList;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

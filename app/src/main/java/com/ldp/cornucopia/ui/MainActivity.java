@@ -7,9 +7,10 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 import com.cornucopia.ldp.cornucopia.R;
-import com.ldp.cornucopia.ui.activity.MaterialDesignActivity;
-import com.ldp.cornucopia.ui.activity.RecyclerViewActivity;
-import com.ldp.cornucopia.ui.activity.SelfViewActivity;
+import com.ldp.cornucopia.ui.activity.menu.BarsActivity;
+import com.ldp.cornucopia.ui.activity.menu.MaterialDesignActivity;
+import com.ldp.cornucopia.ui.activity.menu.RecyclerViewActivity;
+import com.ldp.cornucopia.ui.activity.menu.SelfViewActivity;
 import com.ldp.cornucopia.ui.base.BaseActivity;
 
 import butterknife.BindView;
@@ -59,6 +60,9 @@ public class MainActivity extends BaseActivity {
                 break;
             case 2:
                 startActivityWithoutParams(MaterialDesignActivity.class);
+                break;
+            case 3:
+                startActivityWithoutParams(BarsActivity.class);
                 break;
         }
     }

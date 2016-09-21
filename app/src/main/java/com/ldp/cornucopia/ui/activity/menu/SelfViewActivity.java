@@ -1,28 +1,25 @@
-package com.ldp.cornucopia.ui.activity;
+package com.ldp.cornucopia.ui.activity.menu;
 
 import android.os.Bundle;
 
 import com.cornucopia.ldp.cornucopia.R;
+import com.ldp.cornucopia.ui.activity.EdgeBumpActivity;
 import com.ldp.cornucopia.ui.base.BaseListActivity;
 
-/**
- * MaterialDesignActivity
- * Created by ldp on 16/9/2.
- */
-public class MaterialDesignActivity extends BaseListActivity {
+public class SelfViewActivity extends BaseListActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        initAdapter(getResources().getStringArray(R.array.material_design_view));
+        initAdapter(getResources().getStringArray(R.array.view_item));
     }
 
     @Override
     public void onClickView(int position) {
         switch (position) {
             case 0:
-                startActivityWithoutParams(CoordinatorLayoutActivity.class);
+                startActivityWithoutParams(EdgeBumpActivity.class);
                 break;
         }
     }

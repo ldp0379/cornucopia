@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/hide_status_bar"
+        android:title="@string/hide_status_bar"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/hide_action_bar"
+        android:title="@string/hide_action_bar"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/hide_navigation_bar"
+        android:title="@string/hide_navigation_bar"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/transparent_status_bar"
+        android:title="@string/transparent_status_bar"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/transparent_navigation_bar"
+        android:title="@string/transparent_navigation_bar"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/hide_action_bar_and_status_bar"
+        android:title="@string/immersive_status_bar"
+        app:showAsAction="never" />
+
+</menu>

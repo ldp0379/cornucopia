@@ -5,6 +5,7 @@
         <item>自定义RecyclerView</item>
         <item>自定义View</item>
         <item>Material Design</item>
+        <item>StatusBar/ActionBar/NavigationBar</item>
     </string-array>
 
     <string-array name="recyclerView_item">
@@ -19,5 +20,9 @@
 
     <string-array name="material_design_view">
         <item>CoordinatorLayout + TabBar</item>
+    </string-array>
+
+    <string-array name="status_action_navigation_bar">
+        <item>沉浸式状态栏</item>
     </string-array>
 </resources>

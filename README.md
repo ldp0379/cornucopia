@@ -29,3 +29,9 @@
 >* https://github.com/huazhiyuan2008/RecyclerViewCardGallery
 >* https://github.com/wl9739/BlurredView
 >* http://wl9739.github.io/2016/07/14/教你一分钟实现模糊效果/
+
+###<font color="red">沉浸式状态栏</font>
+参考内容：
+>* http://blog.csdn.net/sinyu890807/article/details/51763825
+>* http://jaeger.itscoder.com/android/2016/03/27/statusbar-util.html
+>* https://github.com/laobie/StatusBarUtil

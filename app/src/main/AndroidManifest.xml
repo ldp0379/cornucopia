@@ -25,11 +25,11 @@
             android:label="@string/sticky_header_view" />
 
         <activity
-            android:name="com.ldp.cornucopia.ui.activity.RecyclerViewActivity"
+            android:name="com.ldp.cornucopia.ui.activity.menu.RecyclerViewActivity"
             android:label="@string/customize_recycleView" />
 
         <activity
-            android:name="com.ldp.cornucopia.ui.activity.SelfViewActivity"
+            android:name="com.ldp.cornucopia.ui.activity.menu.SelfViewActivity"
             android:label="@string/customize_view" />
 
         <activity
@@ -40,9 +40,15 @@
             android:name="com.ldp.cornucopia.ui.activity.CoordinatorLayoutActivity"
             android:label="@string/coordinator_layout_tabBar_view" />
 
-        <activity android:name="com.ldp.cornucopia.ui.activity.MaterialDesignActivity" />
+        <activity android:name="com.ldp.cornucopia.ui.activity.menu.MaterialDesignActivity" />
 
-        <activity android:name="com.ldp.cornucopia.ui.activity.RecyclerViewCardGalleryActivity"/>
+        <activity android:name="com.ldp.cornucopia.ui.activity.RecyclerViewCardGalleryActivity" />
+
+        <activity
+            android:name="com.ldp.cornucopia.ui.activity.menu.BarsActivity"
+            android:label="@string/status_action_navigation_bar" />
+
+        <activity android:name="com.ldp.cornucopia.ui.activity.menu.StatusBarActivity"/>
     </application>
 
 </manifest>
