@@ -35,6 +35,7 @@ public class RefreshAndLoadingRVActivity extends BaseActivity {
         setContentView(R.layout.activity_refresh_and_loading_rv);
         ButterKnife.bind(this);
 
+        showActionBarBack();
         initRecyclerView();
     }
 

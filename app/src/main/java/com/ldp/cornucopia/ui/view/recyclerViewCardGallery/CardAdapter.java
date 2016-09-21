@@ -6,12 +6,14 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
+import com.bumptech.glide.Glide;
 import com.cornucopia.ldp.cornucopia.R;
 
 import java.util.ArrayList;
 import java.util.List;
 
 /**
+ * CardAdapter
  * Created by ldp on 16/9/7.
  */
 public class CardAdapter extends RecyclerView.Adapter<CardAdapter.ViewHolder> {
@@ -33,7 +35,14 @@ public class CardAdapter extends RecyclerView.Adapter<CardAdapter.ViewHolder> {
     @Override
     public void onBindViewHolder(final ViewHolder holder, final int position) {
         mCardAdapterHelper.onBindViewHolder(holder.itemView, position, getItemCount());
-        holder.mImageView.setImageResource(mList.get(position));
+
+        int resourceId = mList.get(position);
+
+        Glide.with(holder.itemView.getContext())
+                .load(resourceId)
+                .centerCrop()
+                .into(holder.mImageView);
+
         holder.mImageView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -47,10 +56,10 @@ public class CardAdapter extends RecyclerView.Adapter<CardAdapter.ViewHolder> {
         return mList.size();
     }
 
-    public class ViewHolder extends RecyclerView.ViewHolder {
-        public final ImageView mImageView;
+    class ViewHolder extends RecyclerView.ViewHolder {
+        private final ImageView mImageView;
 
-        public ViewHolder(final View itemView) {
+        ViewHolder(final View itemView) {
             super(itemView);
             mImageView = (ImageView) itemView.findViewById(R.id.imageView);
         }

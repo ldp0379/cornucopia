@@ -41,7 +41,6 @@ public class StickyHeaderRecycleViewActivity extends BaseActivity {
         ButterKnife.bind(this);
 
         showActionBarBack();
-
         initRecyclerView();
     }
 

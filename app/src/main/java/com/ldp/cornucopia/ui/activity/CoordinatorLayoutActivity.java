@@ -37,6 +37,7 @@ public class CoordinatorLayoutActivity extends BaseActivity {
         setContentView(R.layout.activity_coordinator_layout);
         ButterKnife.bind(this);
 
+        showActionBarBack();
         initFragments();
         initViewPager();
         initTab();

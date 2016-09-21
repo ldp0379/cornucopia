@@ -43,7 +43,7 @@ public class RecyclerViewCardGalleryActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_recycler_view_card_gallery);
         ButterKnife.bind(this);
-
+        showActionBarBack();
         initImages();
     }
 
@@ -57,7 +57,7 @@ public class RecyclerViewCardGalleryActivity extends BaseActivity {
         mSpeedRecyclerView.setAdapter(new CardAdapter(mList));
         // mRecyclerView绑定scale效果
         mCardScaleHelper = new CardScaleHelper();
-        mCardScaleHelper.setCurrentItemPos(2);
+        mCardScaleHelper.setCurrentItemPos(0);
         mCardScaleHelper.attachToRecyclerView(mSpeedRecyclerView);
 
         initBlurBackground();
@@ -79,7 +79,9 @@ public class RecyclerViewCardGalleryActivity extends BaseActivity {
     }
 
     private void notifyBackgroundChange() {
-        if (mLastPos == mCardScaleHelper.getCurrentItemPos()) return;
+        if (mLastPos == mCardScaleHelper.getCurrentItemPos()) {
+            return;
+        }
         mLastPos = mCardScaleHelper.getCurrentItemPos();
         final int resId = mList.get(mCardScaleHelper.getCurrentItemPos());
         mBlurView.removeCallbacks(mBlurRunnable);
