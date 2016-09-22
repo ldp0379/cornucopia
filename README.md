@@ -35,3 +35,9 @@
 >* http://blog.csdn.net/sinyu890807/article/details/51763825
 >* http://jaeger.itscoder.com/android/2016/03/27/statusbar-util.html
 >* https://github.com/laobie/StatusBarUtil
+>* http://blog.csdn.net/lmj623565791/article/details/48649563/
+>* https://github.com/jgilfelt/SystemBarTint
+
+###<font color="red"><CollapsingToolbarLayout + AppBarLayout demo/font>
+参考内容：
+>* http://www.jianshu.com/p/06c0ae8d9a96

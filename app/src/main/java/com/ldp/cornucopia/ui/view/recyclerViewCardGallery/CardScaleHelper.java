@@ -88,7 +88,7 @@ public class CardScaleHelper {
     }
 
     /**
-     * 计算mCurrentItemOffset
+     * 计算mCurrentItemPos
      */
     private void computeCurrentItemPos() {
         if (mOnePageWidth <= 0) return;

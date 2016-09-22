@@ -15,40 +15,34 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name="com.ldp.cornucopia.ui.activity.EdgeBumpActivity"
             android:label="@string/edge_bump" />
-
         <activity
             android:name="com.ldp.cornucopia.ui.activity.StickyHeaderRecycleViewActivity"
             android:label="@string/sticky_header_view" />
-
         <activity
             android:name="com.ldp.cornucopia.ui.activity.menu.RecyclerViewActivity"
             android:label="@string/customize_recycleView" />
-
         <activity
             android:name="com.ldp.cornucopia.ui.activity.menu.SelfViewActivity"
             android:label="@string/customize_view" />
-
         <activity
             android:name="com.ldp.cornucopia.ui.activity.RefreshAndLoadingRVActivity"
             android:label="@string/refresh_and_loading_rv" />
-
         <activity
             android:name="com.ldp.cornucopia.ui.activity.CoordinatorLayoutActivity"
             android:label="@string/coordinator_layout_tabBar_view" />
-
         <activity android:name="com.ldp.cornucopia.ui.activity.menu.MaterialDesignActivity" />
-
         <activity android:name="com.ldp.cornucopia.ui.activity.RecyclerViewCardGalleryActivity" />
-
         <activity
             android:name="com.ldp.cornucopia.ui.activity.menu.BarsActivity"
             android:label="@string/status_action_navigation_bar" />
-
-        <activity android:name="com.ldp.cornucopia.ui.activity.menu.StatusBarActivity"/>
+        <activity android:name="com.ldp.cornucopia.ui.activity.menu.StatusBarActivity" />
+        <activity
+            android:name="com.ldp.cornucopia.ui.activity.ScrollingActivity"
+            android:label="@string/title_activity_scrolling"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

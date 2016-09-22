@@ -4,6 +4,7 @@ import android.os.Bundle;
 
 import com.cornucopia.ldp.cornucopia.R;
 import com.ldp.cornucopia.ui.activity.CoordinatorLayoutActivity;
+import com.ldp.cornucopia.ui.activity.ScrollingActivity;
 import com.ldp.cornucopia.ui.base.BaseListActivity;
 
 /**
@@ -24,6 +25,9 @@ public class MaterialDesignActivity extends BaseListActivity {
         switch (position) {
             case 0:
                 startActivityWithoutParams(CoordinatorLayoutActivity.class);
+                break;
+            case 1:
+                startActivityWithoutParams(ScrollingActivity.class);
                 break;
         }
     }
