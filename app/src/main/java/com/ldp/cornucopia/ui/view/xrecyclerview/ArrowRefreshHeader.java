@@ -17,7 +17,7 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.cornucopia.ldp.cornucopia.R;
-import com.ldp.cornucopia.ui.utils.TimeUtils;
+import com.ldp.cornucopia.common.utils.TimeUtils;
 
 public class ArrowRefreshHeader extends LinearLayout implements BaseRefreshHeader {
 

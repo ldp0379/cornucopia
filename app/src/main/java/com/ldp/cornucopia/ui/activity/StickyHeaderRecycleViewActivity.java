@@ -11,9 +11,9 @@ import android.widget.TextView;
 
 import com.cornucopia.ldp.cornucopia.R;
 import com.ldp.cornucopia.ui.adapter.StickHeaderRVAdapter;
-import com.ldp.cornucopia.ui.base.BaseActivity;
+import com.ldp.cornucopia.common.base.BaseActivity;
 import com.ldp.cornucopia.ui.utils.StickHeaderDataUtils;
-import com.ldp.cornucopia.utils.SnackBarUtil;
+import com.ldp.cornucopia.common.utils.SnackBarUtil;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;

@@ -9,7 +9,7 @@ import android.support.v7.widget.RecyclerView;
 import android.widget.ImageView;
 
 import com.cornucopia.ldp.cornucopia.R;
-import com.ldp.cornucopia.ui.base.BaseActivity;
+import com.ldp.cornucopia.common.base.BaseActivity;
 import com.ldp.cornucopia.ui.utils.BlurBitmapUtils;
 import com.ldp.cornucopia.ui.utils.ViewSwitchUtils;
 import com.ldp.cornucopia.ui.view.recyclerViewCardGallery.CardAdapter;

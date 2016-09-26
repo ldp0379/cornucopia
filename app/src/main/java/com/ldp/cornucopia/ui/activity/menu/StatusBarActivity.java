@@ -10,7 +10,7 @@ import android.view.MenuItem;
 import android.view.View;
 
 import com.cornucopia.ldp.cornucopia.R;
-import com.ldp.cornucopia.ui.base.BaseActivity;
+import com.ldp.cornucopia.common.base.BaseActivity;
 
 /**
  * 沉浸式状态栏

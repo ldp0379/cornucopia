@@ -8,7 +8,7 @@ import android.support.v4.view.ViewPager;
 import android.view.View;
 
 import com.cornucopia.ldp.cornucopia.R;
-import com.ldp.cornucopia.ui.base.BaseActivity;
+import com.ldp.cornucopia.common.base.BaseActivity;
 import com.ldp.cornucopia.ui.fragment.ContentFragment;
 import com.ldp.cornucopia.ui.view.CoordinatorLayoutView.MDTab;
 

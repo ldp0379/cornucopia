@@ -4,7 +4,7 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 
 import com.cornucopia.ldp.cornucopia.R;
-import com.ldp.cornucopia.ui.base.BaseActivity;
+import com.ldp.cornucopia.common.base.BaseActivity;
 
 /**
  * EdgeBumpView - activity

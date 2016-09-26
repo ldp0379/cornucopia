@@ -7,7 +7,7 @@ import android.support.v7.widget.LinearLayoutManager;
 
 import com.cornucopia.ldp.cornucopia.R;
 import com.ldp.cornucopia.ui.adapter.RefreshAndLoadingRVAdapter;
-import com.ldp.cornucopia.ui.base.BaseActivity;
+import com.ldp.cornucopia.common.base.BaseActivity;
 import com.ldp.cornucopia.ui.view.xrecyclerview.XRecyclerView;
 
 import java.util.ArrayList;

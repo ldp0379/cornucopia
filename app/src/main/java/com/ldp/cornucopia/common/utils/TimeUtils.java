@@ -1,4 +1,4 @@
-package com.ldp.cornucopia.ui.utils;
+package com.ldp.cornucopia.common.utils;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

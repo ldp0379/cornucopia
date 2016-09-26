@@ -11,7 +11,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.cornucopia.ldp.cornucopia.R;
-import com.ldp.cornucopia.ui.base.BaseFragment;
+import com.ldp.cornucopia.common.base.BaseFragment;
 
 /**
  * Created by ldp on 16/9/2.

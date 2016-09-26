@@ -1,4 +1,4 @@
-package com.ldp.cornucopia.ui.base;
+package com.ldp.cornucopia.common.base;
 
 import android.content.Context;
 import android.support.v4.app.Fragment;

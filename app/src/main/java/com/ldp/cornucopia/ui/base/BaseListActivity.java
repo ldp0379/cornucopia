@@ -7,6 +7,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 import com.cornucopia.ldp.cornucopia.R;
+import com.ldp.cornucopia.common.base.BaseActivity;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;

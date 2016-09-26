@@ -11,7 +11,7 @@ import com.ldp.cornucopia.ui.activity.menu.BarsActivity;
 import com.ldp.cornucopia.ui.activity.menu.MaterialDesignActivity;
 import com.ldp.cornucopia.ui.activity.menu.RecyclerViewActivity;
 import com.ldp.cornucopia.ui.activity.menu.SelfViewActivity;
-import com.ldp.cornucopia.ui.base.BaseActivity;
+import com.ldp.cornucopia.common.base.BaseActivity;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;

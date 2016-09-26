@@ -1,4 +1,4 @@
-package com.ldp.cornucopia.ui.base;
+package com.ldp.cornucopia.common.base;
 
 import android.view.KeyEvent;
 
