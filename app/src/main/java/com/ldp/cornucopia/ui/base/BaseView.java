@@ -7,5 +7,4 @@ package com.ldp.cornucopia.ui.base;
 
 public interface BaseView<T> {
 
-    void setPresenter(T presenter);
 }

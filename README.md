@@ -38,6 +38,6 @@
 >* http://blog.csdn.net/lmj623565791/article/details/48649563/
 >* https://github.com/jgilfelt/SystemBarTint
 
-###<font color="red"><CollapsingToolbarLayout + AppBarLayout demo/font>
+###<font color="red"><CollapsingToolbarLayout + AppBarLayout demo</font>
 参考内容：
 >* http://www.jianshu.com/p/06c0ae8d9a96

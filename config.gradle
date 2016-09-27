@@ -1,0 +1,20 @@
+ext {
+    //------------------------------------android----------------------------------
+    // minSdkVersion
+    MIN_SDK = 19
+    // targetSdkVersion
+    TARGET_SDK = 24
+    // compileSdkVersion
+    COMPILE_SDK = 24
+    // buildToolsVersion
+    BUILD_TOOLS_VERSION = "24.0.0"
+    // versionCode
+    PUBLISH_CODE = 2
+    // versionName
+    PUBLISH_VERSION = "1.1"
+    // java
+    JAVA_VERSION = JavaVersion.VERSION_1_8
+    //------------------------------------dependencies------------------------------
+    // supportLibraryVersion
+    SUPPORT_LIBRARY_VERSION = "24.2.1"
+}
